@@ -2,7 +2,7 @@
 The code will be released upon the acceptance of our paper 
 > **DVMM: A Dual-View Combination Descriptor for Multi-Modal LiDARs Online Place Recognition**
 
-![Figure_10](github/dvmm/figure/DVMM_in_DCLSLAM.jpg)
+![Figure_10](figure/DVMM_in_DCLSLAM.jpg)
 
 ## Introduction
 DVMM is an online place recognition method for multi-modal LiDARs. This method introduces a dual-view combination descriptor, termed DVMM, by separately encoding azimuthal and vertical scene information. The place recognition process consists of two stages: loop closure detection and verification. In the detection stage, point clouds are projected onto an adaptive grid and a 1D azimuthal descriptor is generated via Gaussian weighted column summation. The azimuthal descriptor is utilized to retrieve potential loop candidates through vector matching. In the verification stage, point clouds within a fixed height range are encoded as a binary occupancy image, which serves as the cross-section descriptor. Accurate loop closures are determined by performing image matching on the cross-section descriptors.
