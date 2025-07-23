@@ -48,10 +48,6 @@ We provide our demo data at [OneDrive](https://1drv.ms/f/c/fd72da3394f988c8/Er8K
 
 
 ### 4. Run
-```bash
-cd ../script
-sh run.sh
-```
 Before running, please open run.sh and modify the following variables:
 
 - **QUERY_PCD_DIR**: Path to the folder containing the query point cloud submaps.
@@ -61,6 +57,11 @@ Before running, please open run.sh and modify the following variables:
 - **CONFIG_PATH**: Path to the YAML configuration file (e.g., ../config/MCD.yaml).
 
 Make sure the point cloud files and configuration correspond to your dataset and experiment settings.
+
+```bash
+cd ../script
+sh run.sh
+```
 
 ## Citation
 <!-- This work is published in XXX, and please cite related papers: -->
