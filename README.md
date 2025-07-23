@@ -28,11 +28,12 @@ You can install most of these using `apt`:
 sudo apt-get update
 sudo apt-get install -y build-essential cmake
 sudo apt-get install -y libpcl-dev libopencv-dev libeigen3-dev libboost-all-dev libyaml-cpp-dev
+```
 
 ### 2. Compile
 Clone this repository and build
 
-```
+```bash
 git clone https://github.com/duanxz0127/dvmm.git
 cd dvmm
 mkdir build
@@ -47,7 +48,7 @@ We provide our demo data at [OneDrive](https://1drv.ms/f/c/fd72da3394f988c8/Er8K
 
 
 ### 4. Run
-```
+```bash
 cd ..
 sh script/run.sh
 ```

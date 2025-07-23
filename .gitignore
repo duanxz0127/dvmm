@@ -3,5 +3,4 @@ src/
 data/
 config/
 .clang-format
-.txt
 *.log
