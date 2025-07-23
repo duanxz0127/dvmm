@@ -43,11 +43,15 @@ make -j4
 ```
 
 ### 3. Prepare data
-We provide our demo data at [OneDrive](https://1drv.ms/f/c/fd72da3394f988c8/Er8Kqop3_u9CjW30TAGYjzUBsUPZXWh11RBGfynl192jTA?e=HfcgJH).
+We provide the demo data at [OneDrive](https://1drv.ms/f/c/fd72da3394f988c8/Er8Kqop3_u9CjW30TAGYjzUBsUPZXWh11RBGfynl192jTA?e=HfcgJH).
 
 
 
 ### 4. Run
+```bash
+cd ../script
+sh run.sh
+```
 Before running, please open run.sh and modify the following variables:
 
 - **QUERY_PCD_DIR**: Path to the folder containing the query point cloud submaps.
@@ -58,13 +62,9 @@ Before running, please open run.sh and modify the following variables:
 
 Make sure the point cloud files and configuration correspond to your dataset and experiment settings.
 
-```bash
-cd ../script
-sh run.sh
-```
-
 ## Citation
 <!-- This work is published in XXX, and please cite related papers: -->
+To be updated...
 
 ## Acknowledgement
 We sincerely thank the open source efforts [SOLiD](https://github.com/sparolab/SOLiD), [DCL-SLAM](https://github.com/zhongshp/DCL-SLAM), [TIERS](https://github.com/TIERS/tiers-lidars-dataset-enhanced), and [MCD](https://mcdviral.github.io/) for their contributions to the community.
