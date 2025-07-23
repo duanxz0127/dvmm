@@ -9,7 +9,7 @@ DVMM is an online place recognition method for multi-modal LiDARs. This method i
 
 ## How to Use
 
-This project was tested on **Ubuntu 18.04** and requires several common C++ libraries.
+This project was tested on Ubuntu 18.04 and requires several common C++ libraries.
 
 ### 1. Pre-requisites
 
@@ -49,13 +49,21 @@ We provide our demo data at [OneDrive](https://1drv.ms/f/c/fd72da3394f988c8/Er8K
 
 ### 4. Run
 ```bash
-cd ..
-sh script/run.sh
+cd ../script
+sh run.sh
 ```
+Before running, please open run.sh and modify the following variables:
 
+- **QUERY_PCD_DIR**: Path to the folder containing the query point cloud submaps.
+
+- **REFERENCE_PCD_DIR**: Path to the folder containing the reference point cloud submaps.
+
+- **CONFIG_PATH**: Path to the YAML configuration file (e.g., ../config/MCD.yaml).
+
+Make sure the point cloud files and configuration correspond to your dataset and experiment settings.
 
 ## Citation
 <!-- This work is published in XXX, and please cite related papers: -->
 
 ## Acknowledgement
-We sincerely thank the two open source efforts [SOLiD](https://github.com/sparolab/SOLiD), [DCL-SLAM](https://github.com/zhongshp/DCL-SLAM), [TIERS](https://github.com/TIERS/tiers-lidars-dataset-enhanced), and [MCD](https://mcdviral.github.io/) for their contributions to the community.
+We sincerely thank the open source efforts [SOLiD](https://github.com/sparolab/SOLiD), [DCL-SLAM](https://github.com/zhongshp/DCL-SLAM), [TIERS](https://github.com/TIERS/tiers-lidars-dataset-enhanced), and [MCD](https://mcdviral.github.io/) for their contributions to the community.

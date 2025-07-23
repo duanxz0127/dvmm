@@ -10,7 +10,7 @@ set -e
 
 QUERY_PCD_DIR="/home/dxz/LoopClosureDetection/github/dvmm/data/tiers_road03/ost64/Submaps"
 CANDIDATE_PCD_DIR="/home/dxz/LoopClosureDetection/github/dvmm/data/tiers_road03/avia/Submaps"
-CONFIG="/home/dxz/LoopClosureDetection/github/dvmm/config/TIERS.yaml"
+CONFIG_PATH="/home/dxz/LoopClosureDetection/github/dvmm/config/TIERS.yaml"
 
 # Check if the executable exists
 if [ ! -f "../build/dvmm_demo" ]; then
