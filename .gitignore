@@ -1,6 +1,4 @@
 build/
-src/
 data/
-config/
 .clang-format
 *.log
