@@ -1,5 +1,4 @@
 # dvmm
-The code will be released upon the acceptance of our paper 
 > **DVMM: A Dual-View Combination Descriptor for Multi-Modal LiDARs Online Place Recognition**
 
 ![Figure_10](figure/DVMM_in_DCLSLAM.jpg)
@@ -63,8 +62,21 @@ Before running, please open run.sh and modify the following variables:
 Make sure the point cloud files and configuration correspond to your dataset and experiment settings.
 
 ## Citation
-<!-- This work is published in XXX, and please cite related papers: -->
-To be updated...
+This work is published in IEEE Robotics and Automation Letters, and please cite related papers:
+  ```
+    @article{duanDVMMDualViewCombination2025,
+        title = {DVMM: A Dual-View Combination Descriptor for Multi-Modal LiDARs Online Place Recognition},
+        author = {Duan, Xuzhe and Hu, Qingwu and Ai, Mingyao and Zhao, Pengcheng and Li, Jiayuan},
+        year = {2025},
+        month = oct,
+        journal = {IEEE Robotics and Automation Letters},
+        volume = {10},
+        number = {10},
+        pages = {10434--10441},
+        doi = {10.1109/LRA.2025.3600141}
+    }
+
+  ```
 
 ## Acknowledgement
 We sincerely thank the open source efforts [SOLiD](https://github.com/sparolab/SOLiD), [DCL-SLAM](https://github.com/zhongshp/DCL-SLAM), [TIERS](https://github.com/TIERS/tiers-lidars-dataset-enhanced), and [MCD](https://mcdviral.github.io/) for their contributions to the community.
