@@ -62,7 +62,7 @@ Before running, please open run.sh and modify the following variables:
 Make sure the point cloud files and configuration correspond to your dataset and experiment settings.
 
 ## Citation
-This work is published in IEEE Robotics and Automation Letters, and please cite related papers:
+This work is published in IEEE Robotics and Automation Letters. If you use our code or method in your work, please consider citing the following:
   ```
     @article{duanDVMMDualViewCombination2025,
         title = {DVMM: A Dual-View Combination Descriptor for Multi-Modal LiDARs Online Place Recognition},
